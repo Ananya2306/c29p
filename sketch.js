@@ -17,6 +17,7 @@ function setup(){
     gr2 = new Ground(640,400,200,30);
     gr3 = new Ground(400,450,200,30);
     gr4 = new Ground(860,350,200,30);
+    gr5 = new Ground(100,500,200,100);
     ball1 = new Ball(100,300,30);
 
     box1 = new Box(590,300);
@@ -48,7 +49,7 @@ function draw(){
     gr2.display();
     gr3.display();
     gr4.display();
-
+    gr5.display();
     ball1.display();  
 
     box1.display(); 
